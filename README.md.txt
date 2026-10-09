@@ -1,7 +1,7 @@
 1. Project Overview
 The project was a digital website portfolio of ourselves, our projects and how to contact us
 2. Website Pages
-The website uses the 4 basic pages
+The website uses the 4 basic pages, Index.html (The home page), aboutme.html (Imbedded with photo and video), projects.html (Showing my old projects) and contact.html (Form)
 3. Responsive Design
 I used three separate CSS files appropriately named laptopviewport, tabletviewport and mobileviewport which are all called on the beginning of all four HTML files. They work the same by reading the width and height of the browser and changing the currently active viewport
 4. Gradients

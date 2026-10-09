@@ -1,17 +1,12 @@
-/* Phone / Mobile styles */
-
 * {
     box-sizing: border-box;
 }
-
 html {
     margin: 0;
     padding: 0;
     background-color: #240033;
 }
-
 @media screen and (max-width: 600px) {
-
     body {
         margin: 0;
         padding: 0 0 65px 120px;
@@ -20,8 +15,6 @@ html {
         color: #F1CCFF;
         font-size: 16px;
     }
-
-    /* Header */
     header {
         margin: 0;
         padding: 15px;
@@ -29,7 +22,6 @@ html {
         background: linear-gradient(135deg, #240033, #240033, #6A1B87);
         color: #F1CCFF;
     }
-
     header h1 {
         font-family: "Courier New", Arial, sans-serif;
         font-size: 24px;
@@ -37,8 +29,6 @@ html {
         letter-spacing: 1px;
         text-transform: uppercase;
     }
-
-    /* Side navigation */
     nav {
         position: fixed;
         top: 0;
@@ -50,13 +40,11 @@ html {
         background-color: #3D0054;
         z-index: 1000;
     }
-
     nav ul {
         margin: 0;
         padding: 0;
         list-style: none;
     }
-
     nav a {
         display: block;
         width: 100%;
@@ -67,19 +55,15 @@ html {
         font-weight: bold;
         font-size: 14px;
     }
-
     nav a:hover {
         background-color: #6A1B87;
         color: #F1CCFF;
         animation: hoverAnimation 2s forwards;
     }
-
-    /* Main content */
     main {
         width: 92%;
         margin: 20px 0;
     }
-
     section {
         background-color: #240033;
         color: #F1CCFF;
@@ -87,34 +71,27 @@ html {
         margin: 0 0 15px 0;
         border-left: 5px solid #6A1B87;
     }
-
     h2 {
         font-size: 20px;
         color: #F1CCFF;
     }
-
     p {
         font-size: 16px;
         line-height: 1.5;
         color: #F1CCFF;
     }
-
     a {
         color: #F1CCFF;
     }
-
     img {
         max-width: 100%;
         height: auto;
     }
-
     video {
         width: 100%;
         max-width: 100%;
         height: auto;
     }
-
-    /* Footer */
     footer {
         position: fixed;
         bottom: 0;
@@ -128,16 +105,12 @@ html {
         font-size: 13px;
         z-index: 999;
     }
-
     footer p {
         color: #F1CCFF;
     }
-
-    /* Contact form */
     label {
         color: #F1CCFF;
     }
-
     input,
     textarea {
         width: 100%;
@@ -148,7 +121,6 @@ html {
         color: #F1CCFF;
         border: 1px solid #6A1B87;
     }
-
     input[type="submit"] {
         width: auto;
         background-color: #6A1B87;
@@ -157,12 +129,10 @@ html {
         padding: 10px 20px;
         cursor: pointer;
     }
-
     input[type="submit"]:hover {
         background-color: #9C4ABA;
         animation: hoverAnimation 1s forwards;
     }
-
     @keyframes hoverAnimation {
         0% {
             background-color: #240033;
@@ -171,5 +141,4 @@ html {
             background-color: #9C4ABA;
         }
     }
-
 }
