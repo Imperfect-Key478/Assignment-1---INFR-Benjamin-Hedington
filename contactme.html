@@ -20,23 +20,31 @@
     </header>
     <main>
         <section>
+            <!-- Form section for contact me -->
             <form>
                 <label for="name">Name:</label>
+                <!-- These single breaks just put input boxes below the title text -->
                 <br>
+                <!-- Gets basic type text with placeholder -->
                 <input type="text" id="name" name="name" placeholder="..." required>
+                <!-- Double breaks break up the text and boxes -->
                 <br><br>
                 <label for="email">Email:</label>
                 <br>
+                <!-- Gets basic type email searching for valid email format and placeholder -->
                 <input type="email" id="email" name="email" placeholder="..." required>
                 <br><br>
                 <label for="phone">Phone:</label>
                 <br>
+                <!-- Gets basic type tel searching for valid phone format and placeholder -->
                 <input type="tel" id="phone" name="phone" placeholder="..." required>
                 <br><br>
                 <label for="comments">Comments:</label>
                 <br>
+                <!-- Unrequired textarea with placeholder -->
                 <textarea id="comments" name="comments" placeholder="..." rows="6"></textarea>
                 <br><br>
+                <!-- Submits and resets form -->
                 <input type="submit" value="Submit">
             </form>
         </section>

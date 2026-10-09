@@ -55,8 +55,10 @@ nav a {
 nav a:hover {
     background-color: #9C4ABA;
     color: #F1CCFF;
+    /* Calls the hover animation */
     animation: hoverAnimation 2s forwards;
 }
+/* Hover animation for navigation links and submit button */
 @keyframes hoverAnimation {
     0% {
         background-color: #240033;
